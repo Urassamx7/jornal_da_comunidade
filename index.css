@@ -72,6 +72,12 @@ body,html{
 }
 .content{
     margin: 1rem 0 1rem 0;
+    line-height: 1rem;
+    max-height: 3rem;
+    overflow: hidden !important;
+}
+.content::after{
+    content: '...';
 }
 .content-img{
     width: 100%;
